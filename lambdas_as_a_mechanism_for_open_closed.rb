@@ -1,11 +1,10 @@
-# Lambdas as a mechanism for Open/Closed Kata, 6 kyu 
+# Lambdas as a mechanism for Open/Closed Kata, 6 kyu
 
 spoken =->(greeting) { greeting.capitalize << "." }
 shouted =->(greeting) { greeting.upcase << "!" }
 whispered =->(greeting) { greeting.downcase << "." }
 
 greet =->(style, msg) { style.call(msg) }
-
 
 puts greet.call(spoken, "Hello")
 puts greet.call(shouted, "Hello")

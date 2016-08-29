@@ -5,7 +5,7 @@ def getCount(inputStr)
 end
 
 puts getCount("abracadabra")
-puts getCount ("a".."z").to_a.join
+puts getCount g("a".."z").to_a.join
 
 __END__
 

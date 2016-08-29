@@ -8,6 +8,12 @@ def to_number_array(string_array)
   end
 end
 
+def to_number_array2(string_array)
+  string_array.map(&:to_f)
+end
+
+p to_number_array2(["1", "2", "3"])
+
 __END__
 
 7 kyu
